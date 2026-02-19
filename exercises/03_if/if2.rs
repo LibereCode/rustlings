@@ -4,6 +4,12 @@ fn picky_eater(food: &str) -> &str {
         "Yummy!"
     } else if food == "potato" {
         "I guess I can eat that."
+    // NOTE: försök 1: jag är dum i huvudet
+    // } else if food == "broccoli" || food == "gummy bears" || food == "literally anything" {
+    //     "No thanks!"
+    // } else {
+    //     "1"
+    // }
     } else {
         "No thanks!"
     }
