@@ -1,6 +1,6 @@
 DON'T EDIT THIS FILE!
 
-quiz1
+primitive_types1
 
 intro1
 intro2
