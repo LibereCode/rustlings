@@ -1,5 +1,0 @@
-/home/LibereCode/projects/rust/rustlings/target/debug/deps/enums2-5de2ea0437418a5f.d: exercises/08_enums/enums2.rs
-
-/home/LibereCode/projects/rust/rustlings/target/debug/deps/libenums2-5de2ea0437418a5f.rmeta: exercises/08_enums/enums2.rs
-
-exercises/08_enums/enums2.rs:
