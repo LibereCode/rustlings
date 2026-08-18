@@ -11,7 +11,10 @@
   env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-  packages = with pkgs; [ git rustlings ];
+  packages = with pkgs; [
+    git
+    rustlings
+  ];
 
   # https://devenv.sh/languages/
   languages.rust.enable = true;
@@ -45,8 +48,17 @@
     git --version | grep --color=auto "${pkgs.git.version}"
   '';
 
+  treefmt = {
+    enable = true;
+    config.programs = {
+      # rustfmt.enable = true;
+      nixfmt.enable = true;
+    };
+  };
   # https://devenv.sh/git-hooks/
-  # git-hooks.hooks.shellcheck.enable = true;
+  git-hooks.hooks = {
+    treefmt.enable = true;
+  };
 
   # See full reference at https://devenv.sh/reference/options/
 }

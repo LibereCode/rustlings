@@ -1,5 +1,5 @@
-   0.062530351s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="arc1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "arc1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/19_smart_pointers/arc1.rs", Edition2024) }
-   0.062545280s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="arc1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-23f73b0b590b79b2/test-bin-arc1`
+   0.016106644s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="arc1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "arc1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/19_smart_pointers/arc1.rs", Edition2024) }
+   0.016123767s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="arc1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-23f73b0b590b79b2/test-bin-arc1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -24,8 +24,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.065827241s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="arc1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "arc1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/19_smart_pointers/arc1.rs", Edition2024) }
-   0.065837320s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="arc1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-cd276485fbbd47f8/bin-arc1`
+   0.018373221s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="arc1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "arc1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/19_smart_pointers/arc1.rs", Edition2024) }
+   0.018382028s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="arc1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-cd276485fbbd47f8/bin-arc1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -50,8 +50,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.066229272s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "as_ref_mut", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/as_ref_mut.rs", Edition2024) }
-   0.066234592s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-264d08e7f832514c/test-bin-as_ref_mut`
+   0.018735236s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "as_ref_mut", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/as_ref_mut.rs", Edition2024) }
+   0.018740406s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-264d08e7f832514c/test-bin-as_ref_mut`
 
 Caused by:
     No such file or directory (os error 2)
@@ -76,8 +76,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.066411406s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "as_ref_mut", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/as_ref_mut.rs", Edition2024) }
-   0.066415324s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-901c160b502d0b99/bin-as_ref_mut`
+   0.018924414s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "as_ref_mut", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/as_ref_mut.rs", Edition2024) }
+   0.018928712s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-901c160b502d0b99/bin-as_ref_mut`
 
 Caused by:
     No such file or directory (os error 2)
@@ -102,8 +102,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.066789793s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="box1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "box1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/19_smart_pointers/box1.rs", Edition2024) }
-   0.066794401s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="box1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-6203bbbe71029627/test-bin-box1`
+   0.019286208s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="box1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "box1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/19_smart_pointers/box1.rs", Edition2024) }
+   0.019290476s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="box1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-6203bbbe71029627/test-bin-box1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -128,8 +128,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.066961518s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="box1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "box1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/19_smart_pointers/box1.rs", Edition2024) }
-   0.066965405s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="box1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-b33410b9af55a8c4/bin-box1`
+   0.019515612s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="box1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "box1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/19_smart_pointers/box1.rs", Edition2024) }
+   0.019519640s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="box1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-b33410b9af55a8c4/bin-box1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -154,8 +154,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.068560714s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="cow1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "cow1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/19_smart_pointers/cow1.rs", Edition2024) }
-   0.068570352s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="cow1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4270abaa01610a65/test-bin-cow1`
+   0.021210969s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="cow1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "cow1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/19_smart_pointers/cow1.rs", Edition2024) }
+   0.021215778s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="cow1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4270abaa01610a65/test-bin-cow1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -180,8 +180,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.069020093s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "enums1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/08_enums/enums1.rs", Edition2024) }
-   0.069025985s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-edcb0e240d1c9f94/test-bin-enums1`
+   0.021765708s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "enums1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/08_enums/enums1.rs", Edition2024) }
+   0.021770156s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-edcb0e240d1c9f94/test-bin-enums1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -206,8 +206,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.069182441s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "enums1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/08_enums/enums1.rs", Edition2024) }
-   0.069185907s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-2c77f1bc09a986cc/bin-enums1`
+   0.021956238s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "enums1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/08_enums/enums1.rs", Edition2024) }
+   0.021960046s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-2c77f1bc09a986cc/bin-enums1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -232,8 +232,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.069467089s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "enums2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/08_enums/enums2.rs", Edition2024) }
-   0.069470325s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-5de2ea0437418a5f/test-bin-enums2`
+   0.022358128s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "enums2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/08_enums/enums2.rs", Edition2024) }
+   0.022361575s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-5de2ea0437418a5f/test-bin-enums2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -258,8 +258,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.069622373s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "enums2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/08_enums/enums2.rs", Edition2024) }
-   0.069627122s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-562ec9eebfb495bf/bin-enums2`
+   0.022672543s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "enums2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/08_enums/enums2.rs", Edition2024) }
+   0.022684917s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="enums2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-562ec9eebfb495bf/bin-enums2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -284,8 +284,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.070183054s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "errors1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors1.rs", Edition2024) }
-   0.070186280s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9c227570455bdb7c/test-bin-errors1`
+   0.023620125s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "errors1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors1.rs", Edition2024) }
+   0.023625596s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9c227570455bdb7c/test-bin-errors1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -310,8 +310,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.070584714s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "errors2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors2.rs", Edition2024) }
-   0.070588451s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-601d3d42f0328b8e/test-bin-errors2`
+   0.024159095s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "errors2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors2.rs", Edition2024) }
+   0.024163543s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-601d3d42f0328b8e/test-bin-errors2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -336,8 +336,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.070729308s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "errors2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors2.rs", Edition2024) }
-   0.070733266s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4af67dd553e5d5e5/bin-errors2`
+   0.024353863s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "errors2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors2.rs", Edition2024) }
+   0.024357700s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4af67dd553e5d5e5/bin-errors2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -362,8 +362,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.071053251s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "errors3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors3.rs", Edition2024) }
-   0.071056808s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-bdc8b0b6054849d5/test-bin-errors3`
+   0.024789938s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "errors3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors3.rs", Edition2024) }
+   0.024793625s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-bdc8b0b6054849d5/test-bin-errors3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -388,8 +388,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.071177146s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "errors3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors3.rs", Edition2024) }
-   0.071179771s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-e3ee5b7c9a9f5f59/bin-errors3`
+   0.024980278s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "errors3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors3.rs", Edition2024) }
+   0.024984816s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-e3ee5b7c9a9f5f59/bin-errors3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -414,8 +414,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.071754288s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "errors5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors5.rs", Edition2024) }
-   0.071757474s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-37594293cf0a9048/test-bin-errors5`
+   0.025685482s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "errors5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors5.rs", Edition2024) }
+   0.025688938s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-37594293cf0a9048/test-bin-errors5`
 
 Caused by:
     No such file or directory (os error 2)
@@ -440,8 +440,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.071909411s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "errors5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors5.rs", Edition2024) }
-   0.071912066s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-c2e4f18ae8a94230/bin-errors5`
+   0.025853039s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "errors5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/13_error_handling/errors5.rs", Edition2024) }
+   0.025856635s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="errors5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-c2e4f18ae8a94230/bin-errors5`
 
 Caused by:
     No such file or directory (os error 2)
@@ -466,8 +466,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.072620337s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "from_into", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/from_into.rs", Edition2024) }
-   0.072627310s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-7b2410138ae5698c/test-bin-from_into`
+   0.026527234s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "from_into", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/from_into.rs", Edition2024) }
+   0.026531181s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-7b2410138ae5698c/test-bin-from_into`
 
 Caused by:
     No such file or directory (os error 2)
@@ -492,8 +492,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.072863978s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "from_into", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/from_into.rs", Edition2024) }
-   0.072868507s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-de4bfa40fdd10d83/bin-from_into`
+   0.026688699s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "from_into", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/from_into.rs", Edition2024) }
+   0.026711422s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-de4bfa40fdd10d83/bin-from_into`
 
 Caused by:
     No such file or directory (os error 2)
@@ -518,8 +518,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.073372400s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_str"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "from_str", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/from_str.rs", Edition2024) }
-   0.073377590s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_str"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-93f11a162a540466/test-bin-from_str`
+   0.027037168s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_str"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "from_str", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/from_str.rs", Edition2024) }
+   0.027040946s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_str"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-93f11a162a540466/test-bin-from_str`
 
 Caused by:
     No such file or directory (os error 2)
@@ -544,8 +544,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.073615059s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_str"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "from_str", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/from_str.rs", Edition2024) }
-   0.073619598s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_str"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-e55997ce8d3d2018/bin-from_str`
+   0.027192252s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_str"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "from_str", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/from_str.rs", Edition2024) }
+   0.027195628s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="from_str"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-e55997ce8d3d2018/bin-from_str`
 
 Caused by:
     No such file or directory (os error 2)
@@ -570,8 +570,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.076746696s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "generics1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/14_generics/generics1.rs", Edition2024) }
-   0.076758739s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-47f813d1156e8585/test-bin-generics1`
+   0.029255985s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "generics1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/14_generics/generics1.rs", Edition2024) }
+   0.029259722s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-47f813d1156e8585/test-bin-generics1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -596,8 +596,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.077036835s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "generics1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/14_generics/generics1.rs", Edition2024) }
-   0.077040382s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-76342f48d15d0ec1/bin-generics1`
+   0.029424935s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "generics1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/14_generics/generics1.rs", Edition2024) }
+   0.029428241s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-76342f48d15d0ec1/bin-generics1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -622,8 +622,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.077398039s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "generics2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/14_generics/generics2.rs", Edition2024) }
-   0.077401285s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9c5c6c448e603232/test-bin-generics2`
+   0.029762213s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "generics2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/14_generics/generics2.rs", Edition2024) }
+   0.029765970s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="generics2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9c5c6c448e603232/test-bin-generics2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -648,8 +648,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.077794099s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="hashmaps1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "hashmaps1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/11_hashmaps/hashmaps1.rs", Edition2024) }
-   0.077796834s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="hashmaps1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-7edd3e342f2f68e4/test-bin-hashmaps1`
+   0.030175554s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="hashmaps1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "hashmaps1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/11_hashmaps/hashmaps1.rs", Edition2024) }
+   0.030179041s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="hashmaps1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-7edd3e342f2f68e4/test-bin-hashmaps1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -674,8 +674,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.077941648s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="hashmaps1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "hashmaps1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/11_hashmaps/hashmaps1.rs", Edition2024) }
-   0.077944163s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="hashmaps1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-b25c5a8f26b45eb8/bin-hashmaps1`
+   0.030330277s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="hashmaps1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "hashmaps1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/11_hashmaps/hashmaps1.rs", Edition2024) }
+   0.030333543s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="hashmaps1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-b25c5a8f26b45eb8/bin-hashmaps1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -700,8 +700,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.080684509s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "iterators1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators1.rs", Edition2024) }
-   0.080687835s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-0f7071aca46dfc70/test-bin-iterators1`
+   0.033152064s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "iterators1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators1.rs", Edition2024) }
+   0.033156593s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-0f7071aca46dfc70/test-bin-iterators1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -726,8 +726,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.081019403s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "iterators2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators2.rs", Edition2024) }
-   0.081022068s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-b1eacf920fbe4e6a/test-bin-iterators2`
+   0.033618697s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "iterators2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators2.rs", Edition2024) }
+   0.033622724s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-b1eacf920fbe4e6a/test-bin-iterators2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -752,8 +752,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.081136965s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "iterators2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators2.rs", Edition2024) }
-   0.081139510s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-32692d1b05de081e/bin-iterators2`
+   0.033776575s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "iterators2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators2.rs", Edition2024) }
+   0.033779932s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-32692d1b05de081e/bin-iterators2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -778,8 +778,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.081398600s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "iterators3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators3.rs", Edition2024) }
-   0.081401215s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-f691a5f60e463e06/test-bin-iterators3`
+   0.034120887s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "iterators3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators3.rs", Edition2024) }
+   0.034124473s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-f691a5f60e463e06/test-bin-iterators3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -804,8 +804,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.081723265s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "iterators4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators4.rs", Edition2024) }
-   0.081726631s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4500655a205f1e46/test-bin-iterators4`
+   0.034539749s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "iterators4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators4.rs", Edition2024) }
+   0.034543486s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4500655a205f1e46/test-bin-iterators4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -830,8 +830,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.081849283s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "iterators4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators4.rs", Edition2024) }
-   0.081851958s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-0a7bc32db617eee3/bin-iterators4`
+   0.034691215s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "iterators4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators4.rs", Edition2024) }
+   0.034694301s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-0a7bc32db617eee3/bin-iterators4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -856,8 +856,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.082102643s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "iterators5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators5.rs", Edition2024) }
-   0.082105198s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-64c8525f528daf24/test-bin-iterators5`
+   0.035104767s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "iterators5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators5.rs", Edition2024) }
+   0.035110909s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-64c8525f528daf24/test-bin-iterators5`
 
 Caused by:
     No such file or directory (os error 2)
@@ -882,8 +882,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.082217300s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "iterators5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators5.rs", Edition2024) }
-   0.082219865s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-5bb40d8a5741f2bc/bin-iterators5`
+   0.035328731s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "iterators5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/18_iterators/iterators5.rs", Edition2024) }
+   0.035333620s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-5bb40d8a5741f2bc/bin-iterators5`
 
 Caused by:
     No such file or directory (os error 2)
@@ -908,8 +908,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.082468375s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "lifetimes1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes1.rs", Edition2024) }
-   0.082470940s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-762105e2f3efe27a/test-bin-lifetimes1`
+   0.035811113s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "lifetimes1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes1.rs", Edition2024) }
+   0.035816524s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-762105e2f3efe27a/test-bin-lifetimes1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -934,8 +934,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.082581810s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "lifetimes1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes1.rs", Edition2024) }
-   0.082584865s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-fbe82879179c61da/bin-lifetimes1`
+   0.036048352s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "lifetimes1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes1.rs", Edition2024) }
+   0.036056247s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-fbe82879179c61da/bin-lifetimes1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -960,8 +960,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.082834067s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "lifetimes2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes2.rs", Edition2024) }
-   0.082836792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-d7328e3a6ce93405/test-bin-lifetimes2`
+   0.036504204s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "lifetimes2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes2.rs", Edition2024) }
+   0.036510827s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-d7328e3a6ce93405/test-bin-lifetimes2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -986,8 +986,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.082963011s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "lifetimes2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes2.rs", Edition2024) }
-   0.082965646s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-c525e1e855204d5b/bin-lifetimes2`
+   0.036704002s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "lifetimes2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes2.rs", Edition2024) }
+   0.036708741s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-c525e1e855204d5b/bin-lifetimes2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1012,8 +1012,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.083208916s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "lifetimes3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes3.rs", Edition2024) }
-   0.083211401s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-6c0e68801f5f8f84/test-bin-lifetimes3`
+   0.037038445s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "lifetimes3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes3.rs", Edition2024) }
+   0.037041100s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-6c0e68801f5f8f84/test-bin-lifetimes3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1038,8 +1038,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.083322581s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "lifetimes3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes3.rs", Edition2024) }
-   0.083325086s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-cc178444f931fb49/bin-lifetimes3`
+   0.037191534s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "lifetimes3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/16_lifetimes/lifetimes3.rs", Edition2024) }
+   0.037194109s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-cc178444f931fb49/bin-lifetimes3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1064,8 +1064,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.083571783s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "macros1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros1.rs", Edition2024) }
-   0.083574418s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-83bce3e65b798f58/test-bin-macros1`
+   0.037507322s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "macros1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros1.rs", Edition2024) }
+   0.037510588s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-83bce3e65b798f58/test-bin-macros1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1090,8 +1090,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.083691089s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "macros1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros1.rs", Edition2024) }
-   0.083693794s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-c5fe9b160eb6e3aa/bin-macros1`
+   0.037661794s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "macros1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros1.rs", Edition2024) }
+   0.037664489s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-c5fe9b160eb6e3aa/bin-macros1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1116,8 +1116,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.083945370s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "macros2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros2.rs", Edition2024) }
-   0.083947885s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-6cb6b1accea514a8/test-bin-macros2`
+   0.037970588s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "macros2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros2.rs", Edition2024) }
+   0.037973313s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-6cb6b1accea514a8/test-bin-macros2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1142,8 +1142,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.084060748s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "macros2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros2.rs", Edition2024) }
-   0.084063824s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-2fb374eca410a0e7/bin-macros2`
+   0.038105794s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "macros2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros2.rs", Edition2024) }
+   0.038108228s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-2fb374eca410a0e7/bin-macros2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1168,8 +1168,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.084339576s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "macros3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros3.rs", Edition2024) }
-   0.084342231s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-90efc8e49f351e24/test-bin-macros3`
+   0.038401282s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "macros3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros3.rs", Edition2024) }
+   0.038403857s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-90efc8e49f351e24/test-bin-macros3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1194,8 +1194,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.084479912s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "macros3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros3.rs", Edition2024) }
-   0.084482366s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-cd072cbec0d5a1c7/bin-macros3`
+   0.038539524s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "macros3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros3.rs", Edition2024) }
+   0.038543451s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-cd072cbec0d5a1c7/bin-macros3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1220,8 +1220,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.084782384s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "macros4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros4.rs", Edition2024) }
-   0.084786392s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-b1b348ff4f0ab15f/test-bin-macros4`
+   0.038835123s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "macros4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros4.rs", Edition2024) }
+   0.038837878s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-b1b348ff4f0ab15f/test-bin-macros4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1246,8 +1246,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.084916909s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "macros4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros4.rs", Edition2024) }
-   0.084919403s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-ec4bdf8fe1e32c6b/bin-macros4`
+   0.038967644s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "macros4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/21_macros/macros4.rs", Edition2024) }
+   0.038970339s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="macros4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-ec4bdf8fe1e32c6b/bin-macros4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1272,8 +1272,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.085234409s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "modules1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules1.rs", Edition2024) }
-   0.085237034s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-a6f238de127fb002/test-bin-modules1`
+   0.039264335s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "modules1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules1.rs", Edition2024) }
+   0.039267761s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-a6f238de127fb002/test-bin-modules1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1298,8 +1298,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.085376158s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "modules1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules1.rs", Edition2024) }
-   0.085378703s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-a16d302303bbb59d/bin-modules1`
+   0.039439306s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "modules1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules1.rs", Edition2024) }
+   0.039441840s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-a16d302303bbb59d/bin-modules1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1324,8 +1324,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.085707715s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "modules2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules2.rs", Edition2024) }
-   0.085710340s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-3d25d8d2b24d80ae/test-bin-modules2`
+   0.039736909s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "modules2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules2.rs", Edition2024) }
+   0.039739964s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-3d25d8d2b24d80ae/test-bin-modules2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1350,8 +1350,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.085849914s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "modules2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules2.rs", Edition2024) }
-   0.085852309s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-aeef0f9adfeddaae/bin-modules2`
+   0.039882253s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "modules2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules2.rs", Edition2024) }
+   0.039885019s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-aeef0f9adfeddaae/bin-modules2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1376,8 +1376,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.086172194s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "modules3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules3.rs", Edition2024) }
-   0.086174679s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-81fce0eb393286e4/test-bin-modules3`
+   0.040233358s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "modules3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules3.rs", Edition2024) }
+   0.040237275s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-81fce0eb393286e4/test-bin-modules3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1402,8 +1402,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.086306178s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "modules3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules3.rs", Edition2024) }
-   0.086308793s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4929774e2a1189f6/bin-modules3`
+   0.040408248s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "modules3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/10_modules/modules3.rs", Edition2024) }
+   0.040411645s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="modules3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4929774e2a1189f6/bin-modules3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1428,28 +1428,18 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.087973183s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5"}: cargo::core::compiler::fingerprint: stale: changed "/home/LibereCode/projects/rust/rustlings/exercises/06_move_semantics/move_semantics5.rs"
-   0.087976699s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5"}: cargo::core::compiler::fingerprint:           (vs) "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-aabae0a4bed13e0c/dep-test-bin-move_semantics5"
-   0.087978553s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1787073457, nanos: 220309201 } < FileTime { seconds: 1787073460, nanos: 265570742 }
-   0.088025993s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5"}: cargo::core::compiler::fingerprint: fingerprint dirty for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "move_semantics5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/06_move_semantics/move_semantics5.rs", Edition2024) }
-   0.088029289s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-aabae0a4bed13e0c/dep-test-bin-move_semantics5", reference_mtime: FileTime { seconds: 1787073457, nanos: 220309201 }, stale: "/home/LibereCode/projects/rust/rustlings/exercises/06_move_semantics/move_semantics5.rs", stale_mtime: FileTime { seconds: 1787073460, nanos: 265570742 } }))
-   0.088155157s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5"}: cargo::core::compiler::fingerprint: stale: changed "/home/LibereCode/projects/rust/rustlings/exercises/06_move_semantics/move_semantics5.rs"
-   0.088156870s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5"}: cargo::core::compiler::fingerprint:           (vs) "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-cc2f34e401996c3d/dep-bin-move_semantics5"
-   0.088158063s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1787073457, nanos: 530309066 } < FileTime { seconds: 1787073460, nanos: 265570742 }
-   0.088168553s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5"}: cargo::core::compiler::fingerprint: fingerprint dirty for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "move_semantics5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/06_move_semantics/move_semantics5.rs", Edition2024) }
-   0.088170977s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-cc2f34e401996c3d/dep-bin-move_semantics5", reference_mtime: FileTime { seconds: 1787073457, nanos: 530309066 }, stale: "/home/LibereCode/projects/rust/rustlings/exercises/06_move_semantics/move_semantics5.rs", stale_mtime: FileTime { seconds: 1787073460, nanos: 265570742 } }))
-   0.088287578s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint: stale: changed "/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs"
-   0.088289061s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:           (vs) "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-db0bdbfc7e043fa7/dep-test-bin-move_semantics5_sol"
-   0.088290293s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1787073457, nanos: 992308864 } < FileTime { seconds: 1787073458, nanos: 340308710 }
-   0.088300863s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint: fingerprint dirty for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "move_semantics5_sol", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs", Edition2024) }
-   0.088303247s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-db0bdbfc7e043fa7/dep-test-bin-move_semantics5_sol", reference_mtime: FileTime { seconds: 1787073457, nanos: 992308864 }, stale: "/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs", stale_mtime: FileTime { seconds: 1787073458, nanos: 340308710 } }))
-   0.088415560s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint: stale: changed "/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs"
-   0.088417073s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:           (vs) "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-3871e5edb15f1798/dep-bin-move_semantics5_sol"
-   0.088418285s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1787073457, nanos: 352309143 } < FileTime { seconds: 1787073458, nanos: 340308710 }
-   0.088427883s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint: fingerprint dirty for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "move_semantics5_sol", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs", Edition2024) }
-   0.088430128s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-3871e5edb15f1798/dep-bin-move_semantics5_sol", reference_mtime: FileTime { seconds: 1787073457, nanos: 352309143 }, stale: "/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs", stale_mtime: FileTime { seconds: 1787073458, nanos: 340308710 } }))
-   0.088528394s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "options1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options1.rs", Edition2024) }
-   0.088530718s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-5cc8d878a709d8ba/test-bin-options1`
+   0.042620954s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint: stale: changed "/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs"
+   0.042624931s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:           (vs) "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-db0bdbfc7e043fa7/dep-test-bin-move_semantics5_sol"
+   0.042627426s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1787073460, nanos: 604307682 } < FileTime { seconds: 1787073461, nanos: 517307255 }
+   0.042665257s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint: fingerprint dirty for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "move_semantics5_sol", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs", Edition2024) }
+   0.042669475s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-db0bdbfc7e043fa7/dep-test-bin-move_semantics5_sol", reference_mtime: FileTime { seconds: 1787073460, nanos: 604307682 }, stale: "/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs", stale_mtime: FileTime { seconds: 1787073461, nanos: 517307255 } }))
+   0.042806775s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint: stale: changed "/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs"
+   0.042808478s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:           (vs) "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-3871e5edb15f1798/dep-bin-move_semantics5_sol"
+   0.042809911s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1787073460, nanos: 471307744 } < FileTime { seconds: 1787073461, nanos: 517307255 }
+   0.042820441s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint: fingerprint dirty for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "move_semantics5_sol", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs", Edition2024) }
+   0.042823116s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="move_semantics5_sol"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-3871e5edb15f1798/dep-bin-move_semantics5_sol", reference_mtime: FileTime { seconds: 1787073460, nanos: 471307744 }, stale: "/home/LibereCode/projects/rust/rustlings/solutions/06_move_semantics/move_semantics5.rs", stale_mtime: FileTime { seconds: 1787073461, nanos: 517307255 } }))
+   0.042924017s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "options1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options1.rs", Edition2024) }
+   0.042926311s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-5cc8d878a709d8ba/test-bin-options1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1474,8 +1464,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.088653100s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "options1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options1.rs", Edition2024) }
-   0.088655714s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-49d6bea9e66d5ae2/bin-options1`
+   0.043086574s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "options1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options1.rs", Edition2024) }
+   0.043089039s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-49d6bea9e66d5ae2/bin-options1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1500,8 +1490,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.088905347s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "options2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options2.rs", Edition2024) }
-   0.088907862s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-20abdddcf3c7c081/test-bin-options2`
+   0.043402422s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "options2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options2.rs", Edition2024) }
+   0.043405397s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-20abdddcf3c7c081/test-bin-options2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1526,8 +1516,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.089021948s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "options2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options2.rs", Edition2024) }
-   0.089024502s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-265f9a99e5ff55c0/bin-options2`
+   0.043562304s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "options2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options2.rs", Edition2024) }
+   0.043565159s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-265f9a99e5ff55c0/bin-options2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1552,8 +1542,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.089272732s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "options3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options3.rs", Edition2024) }
-   0.089275487s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-1397a5b930177772/test-bin-options3`
+   0.043857272s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "options3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options3.rs", Edition2024) }
+   0.043859757s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-1397a5b930177772/test-bin-options3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1578,8 +1568,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.089386137s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "options3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options3.rs", Edition2024) }
-   0.089388481s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-42f871438da7158d/bin-options3`
+   0.043974714s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "options3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/12_options/options3.rs", Edition2024) }
+   0.043977149s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="options3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-42f871438da7158d/bin-options3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1604,8 +1594,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.091578807s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="quiz2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "quiz2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/quizzes/quiz2.rs", Edition2024) }
-   0.091581922s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="quiz2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-db9cf3137aeff410/test-bin-quiz2`
+   0.046133347s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="quiz2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "quiz2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/quizzes/quiz2.rs", Edition2024) }
+   0.046136583s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="quiz2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-db9cf3137aeff410/test-bin-quiz2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1630,8 +1620,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.091902319s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="quiz3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "quiz3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/quizzes/quiz3.rs", Edition2024) }
-   0.091904954s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="quiz3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-d86c7383f0d79604/test-bin-quiz3`
+   0.046450717s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="quiz3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "quiz3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/quizzes/quiz3.rs", Edition2024) }
+   0.046453432s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="quiz3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-d86c7383f0d79604/test-bin-quiz3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1656,8 +1646,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.092488859s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "strings1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings1.rs", Edition2024) }
-   0.092491484s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-d6e59554882e05e5/test-bin-strings1`
+   0.047019994s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "strings1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings1.rs", Edition2024) }
+   0.047022619s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-d6e59554882e05e5/test-bin-strings1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1682,8 +1672,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.092604027s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "strings1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings1.rs", Edition2024) }
-   0.092606542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-488ee8816a15fb8f/bin-strings1`
+   0.047130563s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "strings1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings1.rs", Edition2024) }
+   0.047133118s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-488ee8816a15fb8f/bin-strings1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1708,8 +1698,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.092856865s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "strings2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings2.rs", Edition2024) }
-   0.092859571s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-2b92733ef62c170c/test-bin-strings2`
+   0.047378382s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "strings2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings2.rs", Edition2024) }
+   0.047380946s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-2b92733ef62c170c/test-bin-strings2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1734,8 +1724,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.092972655s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "strings2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings2.rs", Edition2024) }
-   0.092975159s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9797dc66427daf3e/bin-strings2`
+   0.047497076s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "strings2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings2.rs", Edition2024) }
+   0.047499391s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9797dc66427daf3e/bin-strings2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1760,8 +1750,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.093217758s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "strings3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings3.rs", Edition2024) }
-   0.093220333s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-22c0ba7c8ef365c7/test-bin-strings3`
+   0.047750235s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "strings3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings3.rs", Edition2024) }
+   0.047753020s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-22c0ba7c8ef365c7/test-bin-strings3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1786,8 +1776,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.093331113s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "strings3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings3.rs", Edition2024) }
-   0.093333578s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-a982da704e86a4ea/bin-strings3`
+   0.047873799s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "strings3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings3.rs", Edition2024) }
+   0.047876874s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-a982da704e86a4ea/bin-strings3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1812,8 +1802,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.093575806s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "strings4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings4.rs", Edition2024) }
-   0.093578331s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-7419bbe07ca2b715/test-bin-strings4`
+   0.048114223s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "strings4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings4.rs", Edition2024) }
+   0.048116848s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-7419bbe07ca2b715/test-bin-strings4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1838,8 +1828,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.093693298s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "strings4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings4.rs", Edition2024) }
-   0.093695893s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-5ef16aafe5e2795f/bin-strings4`
+   0.048237897s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "strings4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/09_strings/strings4.rs", Edition2024) }
+   0.048240602s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="strings4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-5ef16aafe5e2795f/bin-strings4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1864,8 +1854,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.093939544s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "structs1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/07_structs/structs1.rs", Edition2024) }
-   0.093942019s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9b57700b9ff524e5/test-bin-structs1`
+   0.048484273s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "structs1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/07_structs/structs1.rs", Edition2024) }
+   0.048488121s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9b57700b9ff524e5/test-bin-structs1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1890,8 +1880,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.094254641s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "structs2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/07_structs/structs2.rs", Edition2024) }
-   0.094257326s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-45a5a07820eed973/test-bin-structs2`
+   0.048804649s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "structs2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/07_structs/structs2.rs", Edition2024) }
+   0.048807455s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-45a5a07820eed973/test-bin-structs2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1916,8 +1906,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.094570859s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "structs3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/07_structs/structs3.rs", Edition2024) }
-   0.094573364s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-5b331d4730965bb3/test-bin-structs3`
+   0.049113123s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "structs3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/07_structs/structs3.rs", Edition2024) }
+   0.049115818s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="structs3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-5b331d4730965bb3/test-bin-structs3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1942,8 +1932,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.094928847s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "tests1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/17_tests/tests1.rs", Edition2024) }
-   0.094931722s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-c7a2b12fcd2bed9a/test-bin-tests1`
+   0.049456462s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "tests1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/17_tests/tests1.rs", Edition2024) }
+   0.049459207s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-c7a2b12fcd2bed9a/test-bin-tests1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1968,8 +1958,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.095250125s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "tests2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/17_tests/tests2.rs", Edition2024) }
-   0.095252750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4f5e06f84176e0f5/test-bin-tests2`
+   0.049777630s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "tests2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/17_tests/tests2.rs", Edition2024) }
+   0.049780545s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4f5e06f84176e0f5/test-bin-tests2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1994,8 +1984,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.095567505s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "tests3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/17_tests/tests3.rs", Edition2024) }
-   0.095570030s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9a3333ee212678b8/test-bin-tests3`
+   0.050087716s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "tests3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/17_tests/tests3.rs", Edition2024) }
+   0.050090331s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="tests3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9a3333ee212678b8/test-bin-tests3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2020,8 +2010,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.095894735s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "threads1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads1.rs", Edition2024) }
-   0.095897380s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-c7abffcacb4f366e/test-bin-threads1`
+   0.050399917s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "threads1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads1.rs", Edition2024) }
+   0.050402472s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-c7abffcacb4f366e/test-bin-threads1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2046,8 +2036,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.096008861s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "threads1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads1.rs", Edition2024) }
-   0.096011375s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-f0d3db5e9dd03387/bin-threads1`
+   0.050520104s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "threads1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads1.rs", Edition2024) }
+   0.050522499s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-f0d3db5e9dd03387/bin-threads1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2072,8 +2062,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.096265156s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "threads2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads2.rs", Edition2024) }
-   0.096267821s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-6a18f4351e3e344a/test-bin-threads2`
+   0.050771309s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "threads2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads2.rs", Edition2024) }
+   0.050773794s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-6a18f4351e3e344a/test-bin-threads2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2098,8 +2088,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.096381175s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "threads2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads2.rs", Edition2024) }
-   0.096383700s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-f65849137ee240b0/bin-threads2`
+   0.050890004s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "threads2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads2.rs", Edition2024) }
+   0.050892548s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-f65849137ee240b0/bin-threads2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2124,8 +2114,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.096626991s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "threads3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads3.rs", Edition2024) }
-   0.096629425s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-2eaa2e7e7d546d52/test-bin-threads3`
+   0.051129807s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "threads3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads3.rs", Edition2024) }
+   0.051132312s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-2eaa2e7e7d546d52/test-bin-threads3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2150,8 +2140,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.096745765s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "threads3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads3.rs", Edition2024) }
-   0.096748951s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-e2d614fc41b655e8/bin-threads3`
+   0.051244725s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "threads3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/20_threads/threads3.rs", Edition2024) }
+   0.051247279s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="threads3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-e2d614fc41b655e8/bin-threads3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2176,8 +2166,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.096993424s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "traits1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits1.rs", Edition2024) }
-   0.096995999s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-85aa947030eaf6e3/test-bin-traits1`
+   0.051494417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "traits1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits1.rs", Edition2024) }
+   0.051497012s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-85aa947030eaf6e3/test-bin-traits1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2202,8 +2192,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.097108883s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "traits1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits1.rs", Edition2024) }
-   0.097111427s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-d4f1c28a2a2100c4/bin-traits1`
+   0.051621297s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "traits1", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits1.rs", Edition2024) }
+   0.051624012s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-d4f1c28a2a2100c4/bin-traits1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2228,8 +2218,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.097355990s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "traits2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits2.rs", Edition2024) }
-   0.097358735s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-e14f9fc70feeafe7/test-bin-traits2`
+   0.051873824s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "traits2", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits2.rs", Edition2024) }
+   0.051876479s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-e14f9fc70feeafe7/test-bin-traits2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2254,8 +2244,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.097675164s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "traits3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits3.rs", Edition2024) }
-   0.097677789s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9bd9e6f43ffe1176/test-bin-traits3`
+   0.052195944s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "traits3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits3.rs", Edition2024) }
+   0.052198809s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9bd9e6f43ffe1176/test-bin-traits3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2280,8 +2270,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.097788519s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "traits3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits3.rs", Edition2024) }
-   0.097791044s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-b8016007294ddf20/bin-traits3`
+   0.052311071s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "traits3", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits3.rs", Edition2024) }
+   0.052313606s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits3"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-b8016007294ddf20/bin-traits3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2306,8 +2296,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.098036458s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "traits4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits4.rs", Edition2024) }
-   0.098039764s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9d517dd7e86bb125/test-bin-traits4`
+   0.052569991s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "traits4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits4.rs", Edition2024) }
+   0.052572887s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-9d517dd7e86bb125/test-bin-traits4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2332,8 +2322,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.098150804s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "traits4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits4.rs", Edition2024) }
-   0.098153259s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-ca0ebfcb670f8f3a/bin-traits4`
+   0.052692112s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "traits4", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits4.rs", Edition2024) }
+   0.052694507s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits4"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-ca0ebfcb670f8f3a/bin-traits4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2358,8 +2348,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.098394295s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "traits5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits5.rs", Edition2024) }
-   0.098396780s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-dbf7c4a2ee07e719/test-bin-traits5`
+   0.052973404s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "traits5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits5.rs", Edition2024) }
+   0.052976119s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-dbf7c4a2ee07e719/test-bin-traits5`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2384,8 +2374,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.098507650s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "traits5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits5.rs", Edition2024) }
-   0.098510064s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4140a843c905a61e/bin-traits5`
+   0.053102598s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "traits5", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/15_traits/traits5.rs", Edition2024) }
+   0.053105223s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="traits5"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-4140a843c905a61e/bin-traits5`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2410,8 +2400,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.098778061s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "try_from_into", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/try_from_into.rs", Edition2024) }
-   0.098780706s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-0ddc745209f546e8/test-bin-try_from_into`
+   0.053404810s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "try_from_into", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/try_from_into.rs", Edition2024) }
+   0.053408287s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-0ddc745209f546e8/test-bin-try_from_into`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2436,8 +2426,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.098891997s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "try_from_into", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/try_from_into.rs", Edition2024) }
-   0.098895193s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-80a3dedc0f3bf288/bin-try_from_into`
+   0.053574802s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "try_from_into", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/try_from_into.rs", Edition2024) }
+   0.053577857s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-80a3dedc0f3bf288/bin-try_from_into`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2462,8 +2452,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.099169162s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="using_as"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "using_as", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/using_as.rs", Edition2024) }
-   0.099172067s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="using_as"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-df53720977284e15/test-bin-using_as`
+   0.053915626s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="using_as"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: true }/TargetInner { name: "using_as", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/using_as.rs", Edition2024) }
+   0.053919133s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="using_as"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-df53720977284e15/test-bin-using_as`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2488,8 +2478,8 @@ Stack backtrace:
   16: __libc_start_call_main
   17: __libc_start_main_alias_2
   18: _start
-   0.099284550s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="using_as"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "using_as", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/using_as.rs", Edition2024) }
-   0.099286754s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="using_as"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-7a0671637c883e5f/bin-using_as`
+   0.054068065s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="using_as"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)/Check { test: false }/TargetInner { name: "using_as", doc: true, ..: with_path("/home/LibereCode/projects/rust/rustlings/exercises/23_conversions/using_as.rs", Edition2024) }
+   0.054070549s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings) target="using_as"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/LibereCode/projects/rust/rustlings/target/debug/.fingerprint/exercises-7a0671637c883e5f/bin-using_as`
 
 Caused by:
     No such file or directory (os error 2)
@@ -2515,100 +2505,100 @@ Stack backtrace:
   17: __libc_start_main_alias_2
   18: _start
     Checking exercises v0.0.0 (/home/LibereCode/projects/rust/rustlings)
-error: could not compile `exercises` (bin "threads2" test) due to 1 previous error; 1 warning emitted
-warning: build failed, waiting for other jobs to finish...
-error: could not compile `exercises` (bin "options3" test) due to 1 previous error
-error: could not compile `exercises` (bin "threads1") due to 1 previous error
-error: could not compile `exercises` (bin "errors2") due to 1 previous error
-error: could not compile `exercises` (bin "options3") due to 1 previous error
-error: could not compile `exercises` (bin "using_as") due to 1 previous error
-error: could not compile `exercises` (bin "modules1") due to 1 previous error
-error: could not compile `exercises` (bin "iterators5") due to 2 previous errors
-error: could not compile `exercises` (bin "threads1" test) due to 1 previous error
-error: could not compile `exercises` (bin "from_into") due to 1 previous error
-error: could not compile `exercises` (bin "options2") due to 3 previous errors
-error: could not compile `exercises` (bin "tests1" test) due to 2 previous errors
-error: could not compile `exercises` (bin "options1" test) due to 2 previous errors
-error: could not compile `exercises` (bin "iterators4") due to 1 previous error
-error: could not compile `exercises` (bin "macros2" test) due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "try_from_into") due to 3 previous errors
-error: could not compile `exercises` (bin "arc1") due to 2 previous errors
-error: could not compile `exercises` (bin "options1") due to 1 previous error
-error: could not compile `exercises` (bin "structs3" test) due to 4 previous errors; 1 warning emitted
-error: could not compile `exercises` (bin "modules3" test) due to 2 previous errors
-error: could not compile `exercises` (bin "structs2" test) due to 7 previous errors
-error: could not compile `exercises` (bin "threads3" test) due to 1 previous error
-error: could not compile `exercises` (bin "strings2") due to 1 previous error
-error: could not compile `exercises` (bin "traits3" test) due to 2 previous errors
 error: could not compile `exercises` (bin "macros4") due to 1 previous error
-error: could not compile `exercises` (bin "tests3" test) due to 2 previous errors; 4 warnings emitted
-error: could not compile `exercises` (bin "generics2" test) due to 2 previous errors
-error: could not compile `exercises` (bin "modules2" test) due to 2 previous errors
-error: could not compile `exercises` (bin "threads2") due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "lifetimes2") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
 error: could not compile `exercises` (bin "traits1") due to 1 previous error
-error: could not compile `exercises` (bin "structs1" test) due to 7 previous errors; 1 warning emitted
-error: could not compile `exercises` (bin "as_ref_mut" test) due to 2 previous errors; 1 warning emitted
-error: could not compile `exercises` (bin "errors5") due to 3 previous errors
-error: could not compile `exercises` (bin "macros1" test) due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "strings1") due to 1 previous error
-error: could not compile `exercises` (bin "modules3") due to 2 previous errors
-error: could not compile `exercises` (bin "from_into" test) due to 1 previous error
-error: could not compile `exercises` (bin "enums1") due to 5 previous errors
-error: could not compile `exercises` (bin "hashmaps1" test) due to 2 previous errors
-error: could not compile `exercises` (bin "traits2" test) due to 1 previous error
-error: could not compile `exercises` (bin "traits5" test) due to 3 previous errors
+error: could not compile `exercises` (bin "errors3") due to 1 previous error
+error: could not compile `exercises` (bin "threads3" test) due to 1 previous error
+error: could not compile `exercises` (bin "modules3" test) due to 2 previous errors
+error: could not compile `exercises` (bin "as_ref_mut") due to 2 previous errors; 1 warning emitted
 error: could not compile `exercises` (bin "iterators1" test) due to 1 previous error; 7 warnings emitted
-error: could not compile `exercises` (bin "iterators4" test) due to 1 previous error
-error: could not compile `exercises` (bin "using_as" test) due to 1 previous error
-error: could not compile `exercises` (bin "strings3") due to 3 previous errors
-error: could not compile `exercises` (bin "quiz2" test) due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "strings3" test) due to 3 previous errors
-error: could not compile `exercises` (bin "macros4" test) due to 1 previous error
-error: could not compile `exercises` (bin "traits3") due to 2 previous errors
-error: could not compile `exercises` (bin "traits4") due to 5 previous errors
-error: could not compile `exercises` (bin "lifetimes2" test) due to 1 previous error
-error: could not compile `exercises` (bin "options2" test) due to 5 previous errors
-error: could not compile `exercises` (bin "lifetimes1" test) due to 1 previous error
-error: could not compile `exercises` (bin "macros1") due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "generics1") due to 1 previous error
-error: could not compile `exercises` (bin "errors2" test) due to 1 previous error
-error: could not compile `exercises` (bin "lifetimes3" test) due to 2 previous errors
-error: could not compile `exercises` (bin "enums1" test) due to 5 previous errors
-error: could not compile `exercises` (bin "threads3") due to 1 previous error
-error: could not compile `exercises` (bin "hashmaps1") due to 2 previous errors
-error: could not compile `exercises` (bin "strings4") due to 10 previous errors
-error: could not compile `exercises` (bin "modules2") due to 2 previous errors
-error: could not compile `exercises` (bin "strings1" test) due to 1 previous error
-error: could not compile `exercises` (bin "generics1" test) due to 1 previous error
+error: could not compile `exercises` (bin "errors3" test) due to 1 previous error
+error: could not compile `exercises` (bin "arc1") due to 2 previous errors
+error: could not compile `exercises` (bin "threads1") due to 1 previous error
+error: could not compile `exercises` (bin "lifetimes3") due to 2 previous errors
+error: could not compile `exercises` (bin "iterators5") due to 2 previous errors
 error: could not compile `exercises` (bin "iterators3" test) due to 2 previous errors; 4 warnings emitted
-error: could not compile `exercises` (bin "enums2") due to 5 previous errors
-error: could not compile `exercises` (bin "modules1" test) due to 1 previous error
 error: could not compile `exercises` (bin "try_from_into" test) due to 3 previous errors
+error: could not compile `exercises` (bin "traits4") due to 5 previous errors
+error: could not compile `exercises` (bin "macros2" test) due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "traits4" test) due to 5 previous errors
+error: could not compile `exercises` (bin "tests2" test) due to 4 previous errors
+error: could not compile `exercises` (bin "modules2" test) due to 2 previous errors
+error: could not compile `exercises` (bin "hashmaps1" test) due to 2 previous errors
+error: could not compile `exercises` (bin "tests3" test) due to 2 previous errors; 4 warnings emitted
+error: could not compile `exercises` (bin "traits3") due to 2 previous errors
+error: could not compile `exercises` (bin "macros2") due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "try_from_into") due to 3 previous errors
+error: could not compile `exercises` (bin "lifetimes2") due to 1 previous error
+error: could not compile `exercises` (bin "macros1") due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "strings4") due to 10 previous errors
+error: could not compile `exercises` (bin "structs3" test) due to 4 previous errors; 1 warning emitted
+error: could not compile `exercises` (bin "enums1" test) due to 5 previous errors
+error: could not compile `exercises` (bin "errors5" test) due to 3 previous errors
+error: could not compile `exercises` (bin "traits5" test) due to 3 previous errors
+error: could not compile `exercises` (bin "iterators2") due to 2 previous errors; 1 warning emitted
+error: could not compile `exercises` (bin "macros3" test) due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "lifetimes1" test) due to 1 previous error
+error: could not compile `exercises` (bin "tests1" test) due to 2 previous errors
+error: could not compile `exercises` (bin "using_as") due to 1 previous error
+error: could not compile `exercises` (bin "strings3") due to 3 previous errors
+error: could not compile `exercises` (bin "traits3" test) due to 2 previous errors
+error: could not compile `exercises` (bin "strings4" test) due to 10 previous errors
+error: could not compile `exercises` (bin "from_into") due to 1 previous error
+error: could not compile `exercises` (bin "quiz2" test) due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "structs1" test) due to 7 previous errors; 1 warning emitted
+error: could not compile `exercises` (bin "threads2") due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "as_ref_mut" test) due to 2 previous errors; 1 warning emitted
+error: could not compile `exercises` (bin "threads1" test) due to 1 previous error
+error: could not compile `exercises` (bin "iterators2" test) due to 2 previous errors; 1 warning emitted
+error: could not compile `exercises` (bin "iterators5" test) due to 2 previous errors
+error: could not compile `exercises` (bin "modules3") due to 2 previous errors
+error: could not compile `exercises` (bin "errors2") due to 1 previous error
+error: could not compile `exercises` (bin "iterators4" test) due to 1 previous error
+error: could not compile `exercises` (bin "traits5") due to 3 previous errors
+error: could not compile `exercises` (bin "options3" test) due to 1 previous error
+error: could not compile `exercises` (bin "iterators4") due to 1 previous error
+error: could not compile `exercises` (bin "modules1") due to 1 previous error
+error: could not compile `exercises` (bin "enums2" test) due to 5 previous errors
+error: could not compile `exercises` (bin "enums2") due to 5 previous errors
+error: could not compile `exercises` (bin "from_into" test) due to 1 previous error
+error: could not compile `exercises` (bin "arc1" test) due to 2 previous errors
+error: could not compile `exercises` (bin "errors5") due to 3 previous errors
+error: could not compile `exercises` (bin "strings2") due to 1 previous error
+error: could not compile `exercises` (bin "errors2" test) due to 1 previous error
+error: could not compile `exercises` (bin "box1") due to 1 previous error
+error: could not compile `exercises` (bin "macros1" test) due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "cow1" test) due to 3 previous errors
+error: could not compile `exercises` (bin "lifetimes2" test) due to 1 previous error
 error: could not compile `exercises` (bin "traits1" test) due to 1 previous error
 error: could not compile `exercises` (bin "strings2" test) due to 1 previous error
-error: could not compile `exercises` (bin "quiz3" test) due to 1 previous error
-error: could not compile `exercises` (bin "macros2") due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "errors1" test) due to 2 previous errors
-error: could not compile `exercises` (bin "box1") due to 1 previous error
-error: could not compile `exercises` (bin "iterators5" test) due to 2 previous errors
-error: could not compile `exercises` (bin "strings4" test) due to 10 previous errors
-error: could not compile `exercises` (bin "iterators2" test) due to 2 previous errors; 1 warning emitted
-error: could not compile `exercises` (bin "traits5") due to 3 previous errors
-error: could not compile `exercises` (bin "lifetimes3") due to 2 previous errors
-error: could not compile `exercises` (bin "lifetimes1") due to 1 previous error
-error: could not compile `exercises` (bin "as_ref_mut") due to 2 previous errors; 1 warning emitted
-error: could not compile `exercises` (bin "errors3") due to 1 previous error
-error: could not compile `exercises` (bin "tests2" test) due to 4 previous errors
-error: could not compile `exercises` (bin "traits4" test) due to 5 previous errors
-error: could not compile `exercises` (bin "macros3" test) due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "macros3") due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "errors3" test) due to 1 previous error
-error: could not compile `exercises` (bin "enums2" test) due to 5 previous errors
-error: could not compile `exercises` (bin "cow1" test) due to 3 previous errors
-error: could not compile `exercises` (bin "errors5" test) due to 3 previous errors
-error: could not compile `exercises` (bin "iterators2") due to 2 previous errors; 1 warning emitted
-error: could not compile `exercises` (bin "box1" test) due to 1 previous error
-error: could not compile `exercises` (bin "from_str" test) due to 1 previous error
 error: could not compile `exercises` (bin "from_str") due to 1 previous error
-error: could not compile `exercises` (bin "arc1" test) due to 2 previous errors
+error: could not compile `exercises` (bin "lifetimes1") due to 1 previous error
+error: could not compile `exercises` (bin "generics2" test) due to 2 previous errors
+error: could not compile `exercises` (bin "using_as" test) due to 1 previous error
+error: could not compile `exercises` (bin "modules1" test) due to 1 previous error
+error: could not compile `exercises` (bin "structs2" test) due to 7 previous errors
+error: could not compile `exercises` (bin "enums1") due to 5 previous errors
+error: could not compile `exercises` (bin "options3") due to 1 previous error
+error: could not compile `exercises` (bin "macros3") due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "threads2" test) due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "options1" test) due to 2 previous errors
+error: could not compile `exercises` (bin "options2") due to 3 previous errors
+error: could not compile `exercises` (bin "from_str" test) due to 1 previous error
+error: could not compile `exercises` (bin "hashmaps1") due to 2 previous errors
+error: could not compile `exercises` (bin "modules2") due to 2 previous errors
+error: could not compile `exercises` (bin "box1" test) due to 1 previous error
+error: could not compile `exercises` (bin "generics1" test) due to 1 previous error
+error: could not compile `exercises` (bin "strings3" test) due to 3 previous errors
+error: could not compile `exercises` (bin "quiz3" test) due to 1 previous error
+error: could not compile `exercises` (bin "lifetimes3" test) due to 2 previous errors
+error: could not compile `exercises` (bin "macros4" test) due to 1 previous error
+error: could not compile `exercises` (bin "options1") due to 1 previous error
+error: could not compile `exercises` (bin "errors1" test) due to 2 previous errors
+error: could not compile `exercises` (bin "options2" test) due to 5 previous errors
+error: could not compile `exercises` (bin "strings1") due to 1 previous error
+error: could not compile `exercises` (bin "threads3") due to 1 previous error
+error: could not compile `exercises` (bin "traits2" test) due to 1 previous error
+error: could not compile `exercises` (bin "strings1" test) due to 1 previous error
+error: could not compile `exercises` (bin "generics1") due to 1 previous error
