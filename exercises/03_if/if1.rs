@@ -14,7 +14,6 @@ fn main() {
     // You can optionally experiment here.
     let x = 1;
     let y = 2;
-    let z = 0;
     if x < y {
         println!("z={y}")
     } else {
